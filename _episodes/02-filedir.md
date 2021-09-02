@@ -181,6 +181,61 @@ are plain old **files**.
 > and <kbd>↓</kbd> to move line-by-line, or by scrolling in your terminal.
 {: .callout}
 
+<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+<orbit-reviewarea>
+  <orbit-prompt
+    question="What is the file system?"
+    answer="The part of the operating system responsible for managing files and directories"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does pwd stand for?"
+    answer="Print Working Directory"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the cd command, without arguments, do?"
+    answer="Goes to the home"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What is the root directory?"
+    answer="The directory that holds everything else"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="How is the root directory referred to?"
+    answer="/"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What is inside the bin directory?"
+    answer="Binaries, that is executable programs"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the `-F` flag of `ls` do?"
+    answer="Classifies entries, appending and indicator (one of */=>@|)"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the symbol @ indicate in `ls -F`?"
+    answer="A link"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="Which symbol indicates a link in `ls -F`?"
+    answer="@"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the symbol / indicate in `ls -F`?"
+    answer="A directory"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="Which symbol indicates a directory in `ls -F`?"
+    answer="/"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the symbol * indicate in `ls -F`?"
+    answer="A executable"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="Which symbol indicates a executable in `ls -F`?"
+    answer="`*`"
+    ></orbit-prompt>
+</orbit-reviewarea>
 
 ### Getting help
 
@@ -726,6 +781,44 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
 > {: .solution}
 {: .challenge}
 
+<orbit-reviewarea>
+  <orbit-prompt
+    question="How do you move up one directory level?"
+    answer="`cd ..`"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does `..` stand for?"
+    answer="The directory containing this one, or more succintly, the **parent** of the current directory"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does `.` stand for?"
+    answer="The current working directory"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the `-a` option of `ls` stand for?"
+    answer="Show all; it forces `ls` to show file and directory names that begin with `.`"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What's the name of files beginning with `.`?"
+    answer="Hidden files"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What characterizes absolute paths compared to relative paths?"
+    answer="Absolute paths begin with `/`"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the `~` symbol represent at the start of a path?"
+    answer="The current user's home directory"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="Where does `cd -` bring you?"
+    answer="To the previous visited location"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="How do you sort files by last edit time?"
+    answer="`ls -rt`"
+    ></orbit-prompt>
+</orbit-reviewarea>
 
 ## General Syntax of a Shell Command
 We have now encountered commands, options, and arguments,
