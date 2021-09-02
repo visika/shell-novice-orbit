@@ -106,6 +106,25 @@ Documents   Library     Music       Public
 > This might happen if the command was mis-typed or if the program corresponding to that command is not installed.
 {: .callout}
 
+<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+<orbit-reviewarea>
+  <orbit-prompt
+    question="What does GUI stand for?"
+    answer="Graphical User Interface"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does CLI stand for?"
+    answer="Command Line Interface"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What is ls short for?"
+    answer="Listing"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What's the advantage of the shell compared to a GUI?"
+    answer="It allows repetitive tasks to be done automatically and fast"
+    ></orbit-prompt>
+</orbit-reviewarea>
 
 ## Nelle's Pipeline: A Typical Problem
 
