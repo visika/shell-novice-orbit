@@ -2,8 +2,13 @@
 [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--shell-E01563.svg)](https://swcarpentry.slack.com/messages/C9X3XTHJ8) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266823.svg)](https://doi.org/10.5281/zenodo.3266823)
 
-shell-novice
+shell-novice + orbit
 ============
+
+This project extends the lesson on shell by Software Carpentry,
+integrating a spaced repetition system to help the learner retain material after the day is over.
+[Orbit](https://withorbit.com/) prompts the reader via email to come back and review what they learned after days, weeks, months.
+This helps retention of concepts for a long time, hopefully forever.
 
 An introduction to the Unix shell for people who have never used the command line before.
 Please see <https://swcarpentry.github.io/shell-novice/> for a rendered version of this material,
