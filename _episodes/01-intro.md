@@ -109,15 +109,15 @@ Documents   Library     Music       Public
 <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
 <orbit-reviewarea>
   <orbit-prompt
-    question="What does GUI stand for?"
+    question="What does **GUI** stand for?"
     answer="Graphical User Interface"
     ></orbit-prompt>
   <orbit-prompt
-    question="What does CLI stand for?"
+    question="What does **CLI** stand for?"
     answer="Command Line Interface"
     ></orbit-prompt>
   <orbit-prompt
-    question="What is ls short for?"
+    question="What is `ls` short for?"
     answer="Listing"
     ></orbit-prompt>
   <orbit-prompt
