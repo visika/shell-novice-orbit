@@ -181,62 +181,6 @@ are plain old **files**.
 > and <kbd>↓</kbd> to move line-by-line, or by scrolling in your terminal.
 {: .callout}
 
-<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
-<orbit-reviewarea>
-  <orbit-prompt
-    question="What is the file system?"
-    answer="The part of the operating system responsible for managing files and directories"
-    ></orbit-prompt>
-  <orbit-prompt
-    question="What does pwd stand for?"
-    answer="Print Working Directory"
-    ></orbit-prompt>
-  <!-- <orbit-prompt -->
-  <!--   question="What does the cd command, without arguments, do?" -->
-  <!--   answer="Goes to the home" -->
-  <!--   ></orbit-prompt> -->
-  <orbit-prompt
-    question="What is the root directory?"
-    answer="The directory that holds everything else"
-    ></orbit-prompt>
-  <orbit-prompt
-    question="How is the root directory referred to?"
-    answer="/"
-    ></orbit-prompt>
-  <!-- <orbit-prompt -->
-  <!--   question="What is inside the bin directory?" -->
-  <!--   answer="Binaries, that is executable programs" -->
-  <!--   ></orbit-prompt> -->
-  <orbit-prompt
-    question="What does the `-F` flag of `ls` do?"
-    answer="Classifies entries<!-- , appending and indicator (one of */=>@|) -->"
-    ></orbit-prompt>
-  <orbit-prompt
-    question="What does the symbol @ indicate in `ls -F`?"
-    answer="A link"
-    ></orbit-prompt>
-  <!-- <orbit-prompt -->
-  <!--   question="Which symbol indicates a link in `ls -F`?" -->
-  <!--   answer="@" -->
-  <!--   ></orbit-prompt> -->
-  <orbit-prompt
-    question="What does the symbol / indicate in `ls -F`?"
-    answer="A directory"
-    ></orbit-prompt>
-  <!-- <orbit-prompt -->
-  <!--   question="Which symbol indicates a directory in `ls -F`?" -->
-  <!--   answer="/" -->
-  <!--   ></orbit-prompt> -->
-  <orbit-prompt
-    question="What does the symbol * indicate in `ls -F`?"
-    answer="A executable"
-    ></orbit-prompt>
-  <!-- <orbit-prompt -->
-  <!--   question="Which symbol indicates a executable in `ls -F`?" -->
-  <!--   answer="`*`" -->
-  <!--   ></orbit-prompt> -->
-</orbit-reviewarea>
-
 ### Getting help
 
 `ls` has lots of other **options**. There are two common ways to find out how
@@ -382,6 +326,62 @@ To **quit** the `man` pages, press <kbd>Q</kbd>.
 > > see if a new output file was written.
 > {: .solution}
 {: .challenge}
+
+<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+<orbit-reviewarea>
+  <orbit-prompt
+    question="What is the file system?"
+    answer="The part of the operating system responsible for managing files and directories"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does pwd stand for?"
+    answer="Print Working Directory"
+    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="What does the cd command, without arguments, do?" -->
+  <!--   answer="Goes to the home" -->
+  <!--   ></orbit-prompt> -->
+  <orbit-prompt
+    question="What is the root directory?"
+    answer="The directory that holds everything else"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="How is the root directory referred to?"
+    answer="/"
+    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="What is inside the bin directory?" -->
+  <!--   answer="Binaries, that is executable programs" -->
+  <!--   ></orbit-prompt> -->
+  <orbit-prompt
+    question="What does the `-F` flag of `ls` do?"
+    answer="Classifies entries<!-- , appending and indicator (one of */=>@|) -->"
+    ></orbit-prompt>
+  <orbit-prompt
+    question="What does the symbol @ indicate in `ls -F`?"
+    answer="A link"
+    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a link in `ls -F`?" -->
+  <!--   answer="@" -->
+  <!--   ></orbit-prompt> -->
+  <orbit-prompt
+    question="What does the symbol / indicate in `ls -F`?"
+    answer="A directory"
+    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a directory in `ls -F`?" -->
+  <!--   answer="/" -->
+  <!--   ></orbit-prompt> -->
+  <orbit-prompt
+    question="What does the symbol * indicate in `ls -F`?"
+    answer="A executable"
+    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a executable in `ls -F`?" -->
+  <!--   answer="`*`" -->
+  <!--   ></orbit-prompt> -->
+</orbit-reviewarea>
 
 ### Exploring Other Directories
 
