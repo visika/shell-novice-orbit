@@ -191,10 +191,10 @@ are plain old **files**.
     question="What does pwd stand for?"
     answer="Print Working Directory"
     ></orbit-prompt>
-  <orbit-prompt
-    question="What does the cd command, without arguments, do?"
-    answer="Goes to the home"
-    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="What does the cd command, without arguments, do?" -->
+  <!--   answer="Goes to the home" -->
+  <!--   ></orbit-prompt> -->
   <orbit-prompt
     question="What is the root directory?"
     answer="The directory that holds everything else"
@@ -203,38 +203,38 @@ are plain old **files**.
     question="How is the root directory referred to?"
     answer="/"
     ></orbit-prompt>
-  <orbit-prompt
-    question="What is inside the bin directory?"
-    answer="Binaries, that is executable programs"
-    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="What is inside the bin directory?" -->
+  <!--   answer="Binaries, that is executable programs" -->
+  <!--   ></orbit-prompt> -->
   <orbit-prompt
     question="What does the `-F` flag of `ls` do?"
-    answer="Classifies entries, appending and indicator (one of */=>@|)"
+    answer="Classifies entries<!-- , appending and indicator (one of */=>@|) -->"
     ></orbit-prompt>
   <orbit-prompt
     question="What does the symbol @ indicate in `ls -F`?"
     answer="A link"
     ></orbit-prompt>
-  <orbit-prompt
-    question="Which symbol indicates a link in `ls -F`?"
-    answer="@"
-    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a link in `ls -F`?" -->
+  <!--   answer="@" -->
+  <!--   ></orbit-prompt> -->
   <orbit-prompt
     question="What does the symbol / indicate in `ls -F`?"
     answer="A directory"
     ></orbit-prompt>
-  <orbit-prompt
-    question="Which symbol indicates a directory in `ls -F`?"
-    answer="/"
-    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a directory in `ls -F`?" -->
+  <!--   answer="/" -->
+  <!--   ></orbit-prompt> -->
   <orbit-prompt
     question="What does the symbol * indicate in `ls -F`?"
     answer="A executable"
     ></orbit-prompt>
-  <orbit-prompt
-    question="Which symbol indicates a executable in `ls -F`?"
-    answer="`*`"
-    ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="Which symbol indicates a executable in `ls -F`?" -->
+  <!--   answer="`*`" -->
+  <!--   ></orbit-prompt> -->
 </orbit-reviewarea>
 
 ### Getting help
@@ -788,7 +788,7 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
     ></orbit-prompt>
   <orbit-prompt
     question="What does `..` stand for?"
-    answer="The directory containing this one, or more succintly, the **parent** of the current directory"
+    answer="The **parent** of the current directory"
     ></orbit-prompt>
   <orbit-prompt
     question="What does `.` stand for?"
@@ -796,18 +796,18 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
     ></orbit-prompt>
   <orbit-prompt
     question="What does the `-a` option of `ls` stand for?"
-    answer="Show all; it forces `ls` to show file and directory names that begin with `.`"
+    answer="Show all<!-- ; it forces `ls` to show file and directory names that begin with `.` -->"
     ></orbit-prompt>
   <orbit-prompt
     question="What's the name of files beginning with `.`?"
     answer="Hidden files"
     ></orbit-prompt>
+  <!-- <orbit-prompt -->
+  <!--   question="What characterizes absolute paths compared to relative paths?" -->
+  <!--   answer="Absolute paths begin with `/`" -->
+  <!--   ></orbit-prompt> -->
   <orbit-prompt
-    question="What characterizes absolute paths compared to relative paths?"
-    answer="Absolute paths begin with `/`"
-    ></orbit-prompt>
-  <orbit-prompt
-    question="What does the `~` symbol represent at the start of a path?"
+    question="What does `~` at the start of a path represent?"
     answer="The current user's home directory"
     ></orbit-prompt>
   <orbit-prompt
